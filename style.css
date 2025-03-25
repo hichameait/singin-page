@@ -1,112 +1,114 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: #f5f5f5;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+.error {
+  color: #ff0000;
+}
 .container {
-    width: 90%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
 
 .left-said {
-    width: 50%;
-    padding: 2rem;
+  width: 50%;
+  padding: 2rem;
 }
 
 .left-said h3 {
-    color: #333;
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 label {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 label p {
-    color: #555;
-    font-size: 0.9rem;
+  color: #555;
+  font-size: 0.9rem;
 }
 
 input {
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 1rem;
-    transition: all 0.3s ease;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
 input:focus {
-    outline: none;
-    border-color: #4CAF50;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
 }
 
 button[type="submit"] {
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: #0e0f0e;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #0e0f0e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button[type="submit"]:hover {
-    background-color: #121412;
+  background-color: #121412;
 }
 
 .right-said {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
 }
 
 .right-said h5 {
-    color: #666;
-    font-size: 1rem;
+  color: #666;
+  font-size: 1rem;
 }
 
 .right-said h2 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .right-said img {
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  height: auto;
 }
